@@ -2,6 +2,9 @@
 
 This Streamlit application provides a no-code/low-code interface for analyzing customer financial data. It automatically detects column types, offers several analysis intents, and supports simple natural-language queries. An optional OpenAI toggle enables additional intelligence if you configure an API key.
 
+##Live Demo
+https://financial-customer-intelligence-agent.streamlit.app/
+
 ## Features
 
 1. Upload CSV and preview data (first 50 rows) with row/column counts.
@@ -63,3 +66,4 @@ streamlit run app.py
 ## Notes
 
 The app works completely offline with pandas and plotly. OpenAI usage is optional; if enabled, you should set `OPENAI_API_KEY` in a secure way.
+
